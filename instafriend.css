@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  font-weight: 800;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(36, 36, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card{
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#card img{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#lelaname{
+    font-size: 50px;
+}
+#friend{
+    color: red;
+    margin: 10px 0;
+}
+.container{
+    margin-top: 30px;
+}
+button{
+    font-size: 20px;
+    height: 40px;
+    padding:0 10px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#add{
+    background-color: purple;
+    color: white;
+}#remove{
+    background-color: #fff;
+    color: black;
+}
+
